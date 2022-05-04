@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Visualizer</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="array-inputs">
+                <p>Size of the array:</p>
+                <input id="a_size" type="range" min=20 max=150 step=1 value=80>
+                <p>Speed of the algorithm:</p>
+                <input id="a_speed" type="range" min=1 max=5 step=1 value=4>
+                <button id="a_generate" style="color: aqua;">Generate New Array!</button>
+            </div>
+
+            <div class="header_right">
+                <p class="nav-heading">Sorting visualizer</p>
+
+                <div class="algos">
+                    <button style="color: violet;">Bubble</button>
+                    <button style="color: yellow;">Selection</button>
+                    <button style="color: SlateBlue;">Insertion</button>
+                    <button style="color: red">Merge</button>
+                    <button style="color: green;">Quick</button>
+                    <button style="margin-right: 0px;">Heap</button>
+                </div>
+            </div>
+
+        </nav>
+    </header>
+
+    <section>
+
+        <div id="Info_Cont1">
+            <!-- <p>This is First Container</p> -->
+            <div class='wrap'>
+                <div class="blocks">
+                    <div class="container" style="background: blue; width: 30px; height: 30px; margin-top: 10px;">
+                    </div>
+                </div>
+                <div class="blocks">
+                    <div class="container" style="height: 30px; width: 100px;">
+                        <p style="height: 20px; margin-left: 10px; margin-bottom: 20px; margin-top: 0px;">Initial Array
+                        </p>
+                    </div>
+                </div>
+
+                </br>
+                </br>
+                <div class="blocks">
+                    <div class="container" style="background: yellow; width: 30px; height: 30px; margin-top: 10px;">
+                    </div>
+                </div>
+                <div class="blocks">
+                    <div class="container" style="height: 30px;  width: 30px;">
+                        <p style="height: 30px; margin-left: 10px; margin-bottom: 20px; margin-top: 0px;">Swapping Bars
+                        </p>
+                    </div>
+                </div>
+
+                </br>
+                </br>
+                <div class="blocks">
+                    <div class="container" style="background: red; width: 30px; height: 30px; margin-top: 10px;">
+                    </div>
+                </div>
+                <div class="blocks">
+                    <div class="container" style="height: 30px;  width: 30px;">
+                        <p style="height: 30px; margin-left: 10px; margin-bottom: 20px; margin-top: 0px;">Selected Bars
+                        </p>
+                    </div>
+                </div>
+
+                </br>
+                </br>
+                <div class="blocks">
+                    <div class="container" style="background: green; width: 30px; height: 30px; margin-top: 10px;">
+                    </div>
+                </div>
+                <div class="blocks">
+                    <div class="container" style="height: 30px;  width: 30px;">
+                        <p style="height: 30px; margin-left: 10px; margin-bottom: 20px; margin-top: 0px;">Sorted Array
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="array_container">
+
+        </div>
+
+        <div id="Info_Cont2">
+            
+        </div>
+
+    </section>
+
+    <div class="container1">
+        <div class="content">
+            <div class="card">
+                <div id="Algo_Info">
+            
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+
+
+    <footer>
+
+    </footer>
+
+    <script src="./scripts/main.js"></script>
+    <script src="./scripts/visualizations.js"></script>
+    <script src="./scripts/bubble_sort.js"></script>
+    <script src="./scripts/selection_sort.js"></script>
+    <script src="./scripts/insertion_sort.js"></script>
+    <script src="./scripts/merge_sort.js"></script>
+    <script src="./scripts/quick_sort.js"></script>
+    <script src="./scripts/heap_sort.js"></script>
+</body>
+
+
+</html>
