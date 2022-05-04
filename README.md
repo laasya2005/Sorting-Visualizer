@@ -15,5 +15,4 @@
 <p style="text-align:center;"><img src="assets/sort2.jpg" width="700" height="500"></p>
 <p style="text-align:center;"><img src="assets/sort3.jpg" width="700" height="500"></p>
 
-## Contributor
- * <a href="https://github.com/Nilesh1206">Nilesh Gopale</a>
+
