@@ -10,7 +10,7 @@
  * Heap Sort
 
 ### This web site is built in <b>HTML, CSS, JavaScript.</b>
-<a href="https://nilesh1206.github.io/Sorting_Algorithm_Visualizer/">Check Here</a>
+<a href=" https://laasya2005.github.io/Sorting-Visualizer/">Check Here</a>
 <p style="text-align:center;"><img src="assets/sort1.jpg" width="700" height="500"></p>
 <p style="text-align:center;"><img src="assets/sort2.jpg" width="700" height="500"></p>
 <p style="text-align:center;"><img src="assets/sort3.jpg" width="700" height="500"></p>
